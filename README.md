@@ -33,10 +33,7 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-C                46 mins         ███████████████░░░░░░░░░░   60.62 %
-Makefile         26 mins         ████████▓░░░░░░░░░░░░░░░░   34.48 %
-Java             3 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
-ca65 assembler   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
