@@ -33,10 +33,9 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-TypeScript   4 hrs 43 mins   ████████████████▒░░░░░░░░   65.80 %
-JavaScript   1 hr 25 mins    █████░░░░░░░░░░░░░░░░░░░░   19.92 %
-CSS          29 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.84 %
-Other        19 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.56 %
+TypeScript   4 hrs 43 mins   ██████████████████▒░░░░░░   73.30 %
+JavaScript   52 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.52 %
+Other        19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.08 %
 ```
 
 <!--END_SECTION:waka-->
