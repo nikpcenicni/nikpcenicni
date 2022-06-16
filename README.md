@@ -33,8 +33,7 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-INI        14 mins         █████████████████████▒░░░   84.95 %
-Other      1 min           ██░░░░░░░░░░░░░░░░░░░░░░░   07.59 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
