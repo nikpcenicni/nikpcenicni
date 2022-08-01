@@ -22,10 +22,9 @@ const Nik = {
 
 <h3>🌱 I’m currently learning</h3>
 <ul>
-  <li>Programming Languages</li>
-  <li>Algorithm Design</li>
-  <li>Computer Networks</li>
-  <li>Operating Systems</li>
+  <li>Web Database Management</li>
+  <li>Topics in Computer Science</li>
+  <li>Human Computer Interaction</li>
  </ul>
 
 <h3>🔨 What I've been working in<h3>
