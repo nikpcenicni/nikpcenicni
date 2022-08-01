@@ -12,7 +12,7 @@
 ```javascript
 const Nik = {
   pronouns: "he" | "him",
-  code: ["Javascript", "CSS", "HTML", "Java", "MySQL", "PHP"],
+  code: ["Javascript", "CSS", "HTML", "Java", "MySQL", "PHP", "Python"],
   tools: ["Docker", "NGINX"],
   contact: {
     email: "nik@pcenicni.dev"
