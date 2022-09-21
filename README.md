@@ -32,8 +32,7 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-JavaScript   21 mins         █████████████████████████   99.51 %
-HTML         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
