@@ -32,7 +32,9 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+Python   1 hr 36 mins    ████████████████████████▒   96.98 %
+Bash     2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.57 %
+Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
 ```
 
 <!--END_SECTION:waka-->
