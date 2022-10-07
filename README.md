@@ -32,9 +32,9 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-Python       15 hrs 50 mins  ████████████████████████░   96.36 %
-TypeScript   27 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
-Git          8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.83 %
+Python     20 hrs 20 mins  ████████████████████████▓   99.26 %
+Git        8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.67 %
+Markdown   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
 ```
 
 <!--END_SECTION:waka-->
