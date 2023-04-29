@@ -32,9 +32,8 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```text
-Markdown   40 mins         ██████████████████▓░░░░░░   74.02 %
-YAML       13 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.78 %
-Other      0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
+Markdown   40 mins         ██████████████████▓░░░░░░   74.16 %
+YAML       13 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.84 %
 ```
 
 <!--END_SECTION:waka-->
