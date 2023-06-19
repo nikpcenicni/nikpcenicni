@@ -33,7 +33,11 @@ const Nik = {
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+JavaScript   1 hr 59 mins    ████████████████████▓░░░░   82.55 %
+TypeScript   21 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.13 %
+Other        1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
+XML          1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 %
+Markdown     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.56 %
 ```
 
 <!--END_SECTION:waka-->
