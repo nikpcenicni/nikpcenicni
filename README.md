@@ -1,7 +1,6 @@
 <h2>Hi, I'm Nikholas Pcenicni</h2>
 <p>
-  Junior Developer @ Bank of Canada <br>
-  Graduated <a href="https://laurentian.ca/">Laurentian University</a> with Bachelors of Computer Science<br>
+  Senior Developer @ Bank of Canada <br>
 </p>
 
 <h3>🧑🏻 About Me</h3>
