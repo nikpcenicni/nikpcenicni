@@ -9,7 +9,7 @@
 ```javascript
 const Nik = {
   pronouns: "he" | "him",
-  tools: ["Docker", "NGINX", "Ansible", "Proxmox", "Terraform", "K3S],
+  tools: ["Docker", "NGINX", "Ansible", "Proxmox", "Terraform", "K3S"],
   contact: {
     email: "nik@pcenicni.dev"
   } 
