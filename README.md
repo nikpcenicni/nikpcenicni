@@ -1,7 +1,4 @@
 <h2>Hi, I'm Nikholas Pcenicni</h2>
-<p>
-  Senior Developer @ Bank of Canada <br>
-</p>
 
 <h3>🧑🏻 About Me</h3>
 
@@ -12,32 +9,12 @@
 ```javascript
 const Nik = {
   pronouns: "he" | "him",
-  code: ["Javascript", "CSS", "HTML", "Java", "MySQL", "PHP", "Python"],
-  tools: ["Docker", "NGINX"],
+  tools: ["Docker", "NGINX", "Ansible", "Proxmox", "Terraform", "K3S],
   contact: {
     email: "nik@pcenicni.dev"
   } 
 }
 ```
-
-<h3>🌱 I’m currently learning</h3>
-<ul>
-  <li>Web Database Management</li>
-  <li>Topics in Computer Science</li>
-  <li>Human Computer Interaction</li>
- </ul>
-
-<h3>🔨 What I've been working in<h3>
-
-<!--START_SECTION:waka-->
-
-```txt
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-  
-  
   <!--
 **nikpcenicni/nikpcenicni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
