@@ -1,0 +1,32 @@
+name: Profile Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs at 1AM UTC, after the Waka Readme job
+    - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    name: Regenerate stat cards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate cards
+        env:
+          # Read-only PAT with access to all repos; GITHUB_TOKEN only sees this one
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python scripts/stats.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "Update profile stat cards"
+          git push
