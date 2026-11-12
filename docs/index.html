@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nik Pcenicni — Senior Developer</title>
+  <meta name="description" content="Nik Pcenicni — Senior Developer in Ottawa. Homelab, Kubernetes, ESP32s and other side quests." />
+  <meta property="og:title" content="Nik Pcenicni — Senior Developer" />
+  <meta property="og:description" content="Homelab gremlin. I run Kubernetes at home. On purpose." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">~/nik</a>
+    <nav>
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="prompt"><span class="dollar">$</span> whoami</p>
+      <h1>Hey, I'm Nik <span class="wave">👋</span></h1>
+      <p class="tagline">
+        Senior Developer in Ottawa, ON. By night, unpaid SRE for a household of exactly one cluster.
+      </p>
+      <p class="typed" aria-live="polite"><span id="typed"></span><span class="cursor">▍</span></p>
+      <div class="links">
+        <a class="btn primary" href="#projects">See projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="https://github.com/nikpcenicni" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/nikholaspcenicni/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2><span class="hash">#</span> about</h2>
+      <div class="about-grid">
+        <pre class="code"><code><span class="k">const</span> nik = {
+  location: <span class="s">"Ottawa, ON 🇨🇦"</span>,
+  dayJob: <span class="s">"Senior Developer"</span>,
+  homelab: {
+    nodes: [<span class="s">"helium"</span>, <span class="s">"neon"</span>, <span class="s">"argon"</span>],
+    stack: [<span class="s">"Proxmox"</span>, <span class="s">"Talos"</span>, <span class="s">"Kubernetes"</span>,
+            <span class="s">"ArgoCD"</span>, <span class="s">"Terraform"</span>, <span class="s">"Ansible"</span>],
+  },
+  alsoTinkersWith: [<span class="s">"ESP32s"</span>, <span class="s">"3D printers"</span>,
+                    <span class="s">"Tesla browsers"</span>, <span class="s">"MagicMirrors"</span>],
+  uptimeSLA: <span class="s">"99.9% (the 0.1% is when I touch something)"</span>,
+};</code></pre>
+        <div>
+          <p>
+            I build software for a living and infrastructure for fun. My homelab is fully declarative —
+            Talos and Kubernetes on Proxmox, provisioned with Terraform and Ansible, reconciled by ArgoCD.
+            When I'm not doing that I'm usually soldering something to an ESP32.
+          </p>
+          <h3>Toolbox</h3>
+          <img class="skills" src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,ansible,proxmox,linux,nginx,cloudflare,githubactions&perline=9" alt="Kubernetes, Docker, Terraform, Ansible, Proxmox, Linux, Nginx, Cloudflare, GitHub Actions" loading="lazy" />
+          <img class="skills" src="https://skillicons.dev/icons?i=ts,js,python,bash,c,java,cs,nextjs,react,tailwind,postgres,arduino&perline=12" alt="TypeScript, JavaScript, Python, Bash, C, Java, C#, Next.js, React, Tailwind, Postgres, Arduino" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2><span class="hash">#</span> projects</h2>
+      <p class="muted">Pulled live from my public GitHub repos.</p>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="filter repos…" aria-label="Filter repositories" />
+        <div id="langs" class="chips" role="group" aria-label="Filter by language"></div>
+      </div>
+
+      <h3 class="sub">🧪 Things I'm building</h3>
+      <div id="active" class="grid"><p class="muted">Loading repos…</p></div>
+
+      <h3 class="sub">🪦 The repo graveyard</h3>
+      <p class="muted small">They compiled once. That's all we can ask.</p>
+      <div id="archived" class="grid"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2><span class="hash">#</span> contact</h2>
+      <p class="muted">Ask me about self-hosting. I will not stop talking.</p>
+      <form id="contact-form" class="form" novalidate>
+        <div class="row">
+          <label>Name<input name="name" required autocomplete="name" /></label>
+          <label>Email<input name="email" type="email" required autocomplete="email" /></label>
+        </div>
+        <label>Message<textarea name="message" rows="6" required></textarea></label>
+        <!-- honeypot: bots fill this, humans never see it -->
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <div class="form-foot">
+          <button class="btn primary" type="submit">Send message</button>
+          <span id="form-status" role="status"></span>
+        </div>
+      </form>
+      <p class="muted small">Prefer email? <a href="mailto:nik@pcenicni.dev">nik@pcenicni.dev</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Nikholas Pcenicni</span>
+    <span class="muted">Hosted on GitHub Pages · <a href="https://www.pcenicni.dev/">pcenicni.dev</a></span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
