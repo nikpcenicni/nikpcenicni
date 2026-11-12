@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Nik+%F0%9F%91%8B;Senior+Developer+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Homelab+gremlin+%F0%9F%A7%AA;I+run+Kubernetes+at+home.+On+purpose.;kubectl+get+pods+--all-namespaces+%F0%9F%91%80" alt="Typing SVG" />
 
-📍 Ottawa, ON &nbsp;·&nbsp; 🌐 [pcenicni.dev](https://www.pcenicni.dev/) &nbsp;·&nbsp; 📫 nik@pcenicni.dev
+📍 Ottawa, ON &nbsp;·&nbsp; 🌐 [pcenicni.dev](https://www.pcenicni.dev/) &nbsp;·&nbsp; 📫 [Get in touch](https://nikpcenicni.github.io/#contact)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-NikholasPcenicni-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikholaspcenicni/)
 [![Website](https://img.shields.io/badge/pcenicni.dev-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.pcenicni.dev/)
